@@ -1,5 +1,5 @@
 <h1># Penting! </h1>
-<ul
+<ul>
   <li>Ekstension gd diaktifkan, supaya function imagecreatefromjpeg dan semacamnya bisa jalan</li>
   <li>Caranya, buka folder xampp>php>php.ini</li>
   <li>Buka file php.ini nya di vscode atau notepad</li>
