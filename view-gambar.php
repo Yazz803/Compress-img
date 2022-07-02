@@ -17,7 +17,7 @@
                 <td>Hapus gambar</td>
             </tr>
             <?php
-                include "koneksi.php";
+                include "functions.php";
                 $id = $_GET["id"];
                 $no=0;
                 $query    =mysqli_query($conn, "SELECT * FROM gambar WHERE id = $id");

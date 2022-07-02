@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php';
+include 'functions.php';
 $id = $_GET["id"];
 $query = mysqli_query($conn, "SELECT * FROM gambar WHERE id = $id");
 while ($data = mysqli_fetch_assoc($query)){
